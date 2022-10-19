@@ -353,4 +353,7 @@ textarea{
     nav{
         gap:70px;
     }
+    .dropdown{
+        margin-bottom:40px;
+    }
 }
