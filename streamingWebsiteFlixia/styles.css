@@ -16,10 +16,7 @@ body{
 a{
     text-decoration: none;
 }
-nav{
-    /* padding:0 7px; */
-    /* position:fixed; */
-}
+
 .flexrow{
     display:flex;
     justify-content: space-evenly;
@@ -341,5 +338,19 @@ textarea{
         padding:6.8px;
         width:47%;
         border-radius: 0%;
+    }
+    .other{
+        gap:65px;
+        
+    }
+    .foot2{
+        gap:45px;
+    }
+    #pricing{
+        border:2px solid red;
+        margin:40px 0 30px;
+    }
+    nav{
+        gap:70px;
     }
 }
