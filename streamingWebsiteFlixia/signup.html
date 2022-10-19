@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration and Login Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="flex body">
+    <h1 class="head">Sign Up Form</h1>
+    <header class="reg flexrow hidden">
+        <form>
+            <!-- <h3 class="header center">Sign Up</h3> -->
+            <p class="par center">Create a new account account</p>
+            <label for id="first">First Name <span class="ast">*</span></label>
+            <input type="text" placeholder="Doris" name="firstname" id="first" required>
+            <label for id="last">Last Name <span class="ast">*</span></label>
+            <input type="text" placeholder="Adah" name="lastname" id="last" required>
+            <label for id="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Choose a strong password">
+            <label for id="mail">Email Address <span class="ast">*</span></label>
+            <input type="email" placeholder="name@gmail.com" name="mail" id="mail" required>
+            <label for id="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="012-345-678-90" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}-[0-9]{2}" required>
+            <label>Please select your gender: <span class="ast">*</span></label>
+            <input type="radio" name="radio" id="female">Female
+            <label for id="female"></label>
+            <input type="radio" name="radio" id="male">Male
+            <label for id="male"></label>
+            <label for id="DOB">Date of birth: <span class="ast">*</span></label>
+            <input type="date" id="DOB" name="birthday">
+            <button class="btn signup link">Submit Form</button>
+            <p class="foot">Already have an account? <a href="login.html" class="log">Login</a></p>
+        </form>
+    </header>
+</body>
+</html>
