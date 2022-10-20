@@ -66,6 +66,13 @@ a{
     border-radius:150px;
     padding:5px;
 }
+.sign:hover{
+    background-color: red;
+    box-shadow:0px 1.8px orangered;
+}
+.sign a:hover,.login a:hover{
+    color:rgb(239, 176, 57);
+}
 .btn{
     background-color: rgb(239, 176, 57);
     padding:10px;
@@ -200,11 +207,19 @@ textarea{
 .other{
     gap:15vw;
 }
+.other a:hover{
+    color:rgb(239, 176, 57);
+}
 .nameyear{
     display:flex;
     justify-content: space-between;
     gap:20px;
    }
+button:hover{
+    background-color: red;
+    color:rgb(239, 176, 57);
+    box-shadow:0px 1.8px orangered;
+}
 @media screen and (max-width:780px){
     body{
         width:100vw;
